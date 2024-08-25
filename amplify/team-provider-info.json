@@ -23,10 +23,21 @@
           "deploymentBucketName": "amplify-amplifysocialfi-dev-4ee35-deployment",
           "s3Key": "amplify-builds/amplifysocialfilayer1ef80ee8-LambdaLayerVersion005289e9-build.zip"
         },
-        "addTodo": {}
+        "addTodo": {
+          "deploymentBucketName": "amplify-amplifysocialfi-dev-4ee35-deployment",
+          "s3Key": "amplify-builds/addTodo-68786c5562422b787369-build.zip"
+        },
+        "getTodo": {
+          "deploymentBucketName": "amplify-amplifysocialfi-dev-4ee35-deployment",
+          "s3Key": "amplify-builds/getTodo-486a43464864512b3332-build.zip"
+        }
       },
       "storage": {
-        "socialfidb": {}
+        "socialfidb": {},
+        "todos": {}
+      },
+      "auth": {
+        "amplifysocialfi": {}
       }
     }
   }
