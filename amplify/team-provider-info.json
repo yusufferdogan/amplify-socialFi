@@ -10,6 +10,24 @@
       "StackName": "amplify-amplifysocialfi-dev-4ee35",
       "StackId": "arn:aws:cloudformation:us-east-1:241533135378:stack/amplify-amplifysocialfi-dev-4ee35/06159c00-62ef-11ef-98db-0e4c2217babd",
       "AmplifyAppId": "d1v0nfo2f8slm9"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d1v0nfo2f8slm9",
+          "type": "cicd"
+        }
+      },
+      "function": {
+        "amplifysocialfilayer1ef80ee8": {
+          "deploymentBucketName": "amplify-amplifysocialfi-dev-4ee35-deployment",
+          "s3Key": "amplify-builds/amplifysocialfilayer1ef80ee8-LambdaLayerVersion005289e9-build.zip"
+        },
+        "addTodo": {}
+      },
+      "storage": {
+        "socialfidb": {}
+      }
     }
   }
 }
